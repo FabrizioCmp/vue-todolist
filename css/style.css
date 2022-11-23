@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.input_task{
+    width: 30vw;
+    padding: .5rem 0;
+}
+
+.btn_add{
+    margin-left: 1rem;
+    background-color: brown;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.task_container{
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+.center_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_delete{
+    margin: 0 1rem;
+}
