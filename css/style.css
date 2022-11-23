@@ -9,7 +9,8 @@ ul{
 
 .input_task{
     width: 30vw;
-    padding: .5rem 0;
+    padding: .5rem .2rem;
+    font-size: 1.3rem;
 }
 
 .btn_add{
@@ -24,7 +25,6 @@ ul{
 .tasks_container{
     width: 60%;
     height: 500px;
-    background-color: white;
     margin: auto;
 }
 
@@ -39,4 +39,24 @@ ul{
     background-color: brown;
     color: white;
     border-radius: 4px;
+    padding: 0 .7rem;
+    font-weight: 600;
+}
+
+.task_box{  
+    background-color: white;
+    box-shadow: 3px 5px 10px black;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.checkbox_style{
+    margin-left: 1rem;
+    width: 20px;
+    aspect-ratio: 1/1;
+}
+
+.task_style{
+    font-size: 1.5rem;
 }
