@@ -26,8 +26,8 @@
                     <li v-for="(task,i) in tasks">
                         <div class="d-flex justify-content-between py-3">
                             <input type="checkbox">
-                            <span>{{task.text}}</span>
-                            <button class="btn_delete">X</button>
+                            <span :class="{'text-decoration-line-through' : task.done}">{{task.text}}</span>
+                            <button class="btn_delete" @click="removeTask(i)">X</button>
                         </div>
                     </li>
                 </ul>
