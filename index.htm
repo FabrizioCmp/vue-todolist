@@ -15,8 +15,8 @@
 <body>
     <div id="app">
         <div class="container">
-            <form class="text-center my-5 center_flex">
-                <input type="text" class="input_task">
+            <form @submit.prevent="onSubmit" class="text-center my-5 center_flex">
+                <input type="text" class="input_task" v-model="newTask.text">
                 <button class="btn_add">Add</button>
             </form>
 
