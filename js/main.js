@@ -6,11 +6,11 @@ createApp({
             tasks: [
                 {
                     text: "task di prova",
-                    done: false,
+                    done: ""
                 },
                 {
                     text: "task di prova2",
-                    done: false,
+                    done: ""
                 }
             ]
         }

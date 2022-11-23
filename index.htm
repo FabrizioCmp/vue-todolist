@@ -21,11 +21,11 @@
             </form>
 
             <h2 class="text-center">To do list</h2>
-            <div class="task_container">
+            <div class="tasks_container">
                 <ul>
                     <li v-for="(task,i) in tasks">
                         <div class="d-flex justify-content-between py-3">
-                            <input type="checkbox">
+                            <input type="checkbox" v-model="task.done">
                             <span :class="{'text-decoration-line-through' : task.done}">{{task.text}}</span>
                             <button class="btn_delete" @click="removeTask(i)">X</button>
                         </div>
